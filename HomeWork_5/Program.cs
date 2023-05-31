@@ -80,6 +80,18 @@ SummOfEvenNumbers(createdArray);
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 //[3 7 22 2 78] -> 76
 
+//Создание массива вещественных чисел
+/*
+int [] CreateArrayDouble (int size, int min, int max)
+{
+    int [] newArray = new int [size];
+
+    for (int i = 0; i < size; i++)
+        newArray = new Random().Next(min, max + 1) + Random().NextDouble();
+    return newArray;
+}
+*/
+
 int [] CreateRandomArray(int size, int min, int max)
 {
     int [] newArray = new int [size];
