@@ -82,15 +82,15 @@ SummOfEvenNumbers(createdArray);
 
 //Создание массива вещественных чисел
 /*
-int [] CreateArrayDouble (int size, int min, int max)
+double [] CreateArrayDouble (double size, double min, double max)
 {
-    int [] newArray = new int [size];
-
-    for (int i = 0; i < size; i++)
-        newArray = new Random().Next(min, max + 1) + Random().NextDouble();
+    double [] newArray = new double [size];
+    
+    for (double i = 0; i < size; i++)
+        newArray = (new Random().Next(1, 10)) + (new Random().NextDouble());
     return newArray;
 }
-*/
+*/  
 
 int [] CreateRandomArray(int size, int min, int max)
 {
