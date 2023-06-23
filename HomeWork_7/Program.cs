@@ -155,7 +155,6 @@ void Show2DArray(double [,] array)
 void AverageArray (double [,] array2)
 {
     double sum = 0;
-    double count = 0;
     double average = 0;
 
     for (int j = 0; j < array2.GetLength(1); j++)
